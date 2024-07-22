@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+<head>
+	<meta charset="utf-8">
+	<title>中文政史文库</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" href="style.css">
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<meta name="description" content="包含了大量文献资料的政史文库">
+	<meta name="keywords" content="PLCN中文政治学、历史学文库 政治学|近代史|文革">
+</head>
+
+<body onload="hide();">
+	<div class="wrapAll clearfix">
+		<div class="sidebar">
+			<div class="logo">
+				<a href="/"><img src='img/logo.png' alt="logo" height="100" width="100"></a>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="https://plcn.xyz">文库主页</a></li>
+					<li><a href="https://nas.plcn.xyz/">访问在线图书馆</a></li>
+					<li><a href="mailto:neilsondou@outlook.com">联系我</a></li>
+					<li><a href="mailto:neilsondou@outlook.com">共享文档</a></li>
+				</ul>
+				<h3>MEGA下载</h3>
+				<ul>
+					<li><a href="javascript:mega()">多链接下载</a></li>
+				</ul>
+				<script>
+					function mega() {
+						window.open("https://mega.nz/folder/yZ1gjK7I#gUmmzKEp8_88WYikbtRnMg");
+						window.open("https://mega.nz/folder/DYlEnbJa#AN3kUQYILCw56niktezmcw");
+						window.open("https://mega.nz/folder/9m8EwQAS#wQDfjue_NYb7kgNM20iWjA");
+						window.open("https://mega.nz/folder/07Mj3BKL#cGnE078jrH1jyzjW-s3KSQ");
+					}
+				</script>
+				<h3>链接</h3>
+				<ul>
+					<li><a href="https://www.cloudflare.com/zh-cn/">Cloudflare</a></li>
+					<li><a href="https://www.ncpssd.org/">哲学社会科学文献中心</a></li>
+					<li><a href="https://scholar.google.com/">谷歌学术</a></li>
+					<li><a href="#">民主屋网刊</a></li>
+					<li><a href="https://www.cssn.cn/">中国社会科学网</a></li>
+					<li><a href="https://www.ocss.asia">开放知识共享网络</a></li>
+				</ul>
+			</div>
+
+
+		</div>
+		<div class="mainsection">
+			<div class="headerLinks">
+				<input type="text" id="simpleSearch" onkeyup="searchFunction()"
+					placeholder="搜索文库当中的项目（不支持模糊搜索，请使用多关键词搜索）">
+
+				<div id="searchResults" class="searchResult"></div>
+			</div>
+
+
+			<div class="article">
+				<h1>中文政治与历史学文库</h1>
+				<h2>文库现有文件：</h2>
+				<div class="container">
+					<div class="bar-chart">
+						<div class="bar-segment pdf">pdf 55%</div>
+						<div class="bar-segment azw3">azw3 23%</div>
+						<div class="bar-segment epub">epub 17%</div>
+						<div class="bar-segment other">其他</div>
+					</div>
+					<div class="bar-chart2">
+						<div class="bar-segment2 amount">总文件量 14233 个文档</div>
+						<div class="bar-segment2 size">文件大小 233G</div>
+					</div>
+				</div>
+				<div class="contentsPanel">
+					<div class="contentsHeader h2">关于文库的说明</div>
+					<ul>
+						<h2>Q 这个文库是什么性质、包含什么内容？
+						</h2>
+						<p>A 与社科院牵头所建立的国家哲学社会科学文献中心、各种私人维护的电子图书馆性质相同，<strong>但这并不是一个商业项目</strong>，维护本文库的团队致力于搜集政治、文化、历史领域的各种学术或非学术内容，该内容所指包括但不限于<strong>学术期刊、论文、专著、小说、纪实文学、各类史料、通俗读本。</strong>
+						</p>
+						<h2>Q 这个文库建立的目的是什么？
+						</h2>
+						<p>A 为了自由地传播知识，践行自由知识与人文精神。
+						</p>
+						<h2>Q 关于文库中文档的合法性
+						</h2>
+						<p>A 负责文库运营的团队并不对这个文库中包含的任何文档及其合法、合规负责，这个文库旨在分享任何有关政治学、历史学与其他学科的知识，这代表着它要尽可能地包含更多的相关内容，如果其中任何文档出现了任何相悖与任何地方法律、产生了版权纠纷一类的情况，请联系我删除之。该站点并未在中国大陆地区备案，故其并不是为中国大陆地区用户服务而开放的。任何中国大陆用户如果能够访问该网站，这种情况并不是出于我本人想要向大陆地区传播任何非法出版物的动机，而应当是给该站提供云服务的厂商所致（Cloudflare、Github、MEGA等）
+						</p>
+						<h2>Q 文库中的文档来源
+						</h2>
+						<p>A 文库中的大部分文档来源于：开放知识共享网络、Cambridge
+							Core期刊数据库、原种子书城、zlibrary、国家哲学社会科学文献中心、语悦文库、Resilio
+							Sync分享资源、文化书城等等，您也可以提交自己的文库来合并到本文库中。
+						</p>
+						<div>&nbsp;</div>
+						<table>
+							<tr>
+								<th>下载方式</th>
+								<th>说明</th>
+							</tr>
+							<tr>
+								<td><strong>NAS下载</strong>（推荐该方法下载）</td>
+								<td>点击页面左侧的NAS下载链接，或访问 <a href="https://nas.plcn.xyz/">https://nas.plcn.xyz/</a>
+									来直接下载文件，该服务运营时段有限，所通过的CloudFlare Tunnel在中国大陆可访问。</td>
+							</tr>
+							<tr>
+								<td><strong>MEGA下载</strong></td>
+								<td>点击页面左侧的MEGA下载下的P1~4链接，来下载分片上传的文库。</td>
+							</tr>
+							<tr>
+								<td><strong>谷歌网盘下载</strong></td>
+								<td>由于文库过大，该下载方式已不可用。</td>
+							</tr>
+							<tr>
+								<td><strong>Cloudflare R2下载</strong></td>
+								<td>由于文库过大，该下载方式已不可用。</td>
+							</tr>
+							<tr>
+								<td><strong>远程Clone</strong></td>
+								<td>没有找到合适的服务商，暂不可用。</td>
+							</tr>
+							<tr>
+								<td><strong>Onedrive下载</strong></td>
+								<td>由于文库过大，该下载方式已不可用。</td>
+							</tr>
+							<tr>
+								<td><strong>Resilio Sync同步</strong></td>
+								<td>联系站长获取密钥</td>
+							</tr>
+							<tr>
+								<td><strong>阅读UDR格式的离线文库文档</strong></td>
+								<td>访问 <a href="https://udr.plcn.xyz/">plcn_udr</a>来获取相关信息</td>
+							</tr>
+						</table>
+						<div>&nbsp;</div>
+
+					</ul>
+				</div>
+				<div>&nbsp;</div>
+
+				<div class="contentsPanel">
+					<div class="contentsHeader h2">关于UDR</div>
+					<ul>
+						<h2>Q 什么是UDR？
+						</h2>
+						<p>A UDR（统一文档留存）是一种由本文库团队开发的格式，旨在高效地整合不同格式的文档，来进行加密、快速压缩、高效分享。通过采用OCR（光学字符识别）技术等提取方法，将各种文档（如PDF、Word、各类电子书籍等）转换为纯文本数据，然后将文本数据结构化、格式化，形成统一的数据集合，存储在一个大文件中。
+						</p>
+						<h2>Q UDR格式文件的结构
+						</h2>
+						<p>A 该格式的文件具有如下结构
+						</p>
+						<p>文件头 Header（标识、创建时间、最后一次修改时间、文件的创建者、文件的顺序修改者、关于文件的补充说明）
+						</p>
+						<p>索引 Index（文档的ebid、标题、原始格式、文件中文档的起始位置与结束位置、读取到的文档的作者）
+						</p>
+						<p>验证 Verification（文件的md5值、加密算法相关信息）
+						</p>
+						<p>数据 Data（文档的数据）
+						</p>
+					</ul>
+				</div>
+
+				<div class="categories">
+					<a href="support.jpg">支持本文库的运行</a>
+					<a href="#">关于其他问题</a>
+					<a href="https://plcn.xyz"><img src='wenku.png' alt="logo" height="40" width="140"></a>
+					<a href="https://www.ocss.asia"><img src='ocss.png' alt="logo" height="40" width="140"></a>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+		</script>
+		<script src="script.js"></script>
+		<script>
+			let items = [];
+			fetch('./data.json')
+				.then(response => response.json())
+				.then(data => {
+					items = data;
+				})
+				.catch(error => {
+					console.error('Error fetching data:', error);
+				});
+
+			function searchFunction() {
+				const input = document.getElementById("simpleSearch");
+				const filter = input.value.toUpperCase();
+				const searchResults = document.getElementById("searchResults");
+				searchResults.innerHTML = "";
+
+				if (filter) {
+					const filteredItems = items.filter(item => item.name.toUpperCase().includes(filter));
+					filteredItems.forEach(item => {
+						const a = document.createElement("a");
+						a.textContent = item.name;
+						a.href = "#";
+						a.onclick = function () {
+							window.open("https://nas.plcn.xyz/pl_library/" + item.full_name);
+						};
+						searchResults.appendChild(a);
+					});
+					searchResults.style.display = "block";
+				} else {
+					searchResults.style.display = "none";
+				}
+			}
+		</script>
+		<script>
+			function isMobileDevice() {
+				return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+			}
+			window.onload = function () {
+				if (isMobileDevice()) {
+					alert("正在开发适用于手机端的阅读器！");
+				}
+			};
+		</script>
+
+</body>
+
+</html>
